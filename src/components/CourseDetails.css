@@ -1,0 +1,185 @@
+/* General Styles */
+.course-details-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.course-image {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-details-page p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Price Section */
+.price-section {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 0.5rem;
+}
+
+.discounted-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5ebec4;
+}
+
+/* Button Styles */
+.get-course-button {
+  display: block;
+  background: linear-gradient(to right, #5ebdc4a3, #f92c85);
+  color: black;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1rem auto;
+}
+
+.get-course-button:hover {
+  background-color: #0056b3;
+}
+
+/* Comments Section */
+.comments-section {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.comments-section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+}
+
+.comment {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment p {
+  margin: 0;
+  text-align: center;
+}
+
+.comment .delete-button {
+  background: linear-gradient(to right, #5ebdc4a3, #f92c85);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.comment .delete-button:hover {
+  background: #a71d2a;
+}
+
+/* Add Comment Section */
+.add-comment {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-comment textarea {
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  padding: 0.5rem;
+  resize: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.add-comment textarea:focus {
+  color: black;
+  outline: none;
+  border-color: black;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.add-comment-button {
+  background: linear-gradient(to right, #5ebdc4a3, #f92c85);
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-comment-button:hover {
+  background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .course-image {
+    max-width: 100%;
+  }
+
+  .get-course-button {
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  .comment {
+    align-items: flex-start;
+  }
+
+  .comment .delete-button {
+    align-self: center;
+  }
+
+  .add-comment textarea {
+    height: 60px;
+  }
+}

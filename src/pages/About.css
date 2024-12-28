@@ -1,0 +1,188 @@
+
+.about-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .about-page h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .about-page h2 {
+    font-size: 1.8em;
+    color: #0056b3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0056b3;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+ 
+  .about-page p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+ 
+  .about-page ul {
+    margin: 10px 0 20px 20px;
+    padding: 0;
+    list-style: disc;
+  }
+  
+  .about-page li {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .about-page a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about-page a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .platform-overview,
+  .vision-mission,
+  .why-choose-us,
+  .contact-info {
+    padding: 15px;
+    border-left: 4px solid;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .platform-overview {
+    background: #eaf3ff;
+    border-color: #0056b3;
+  }
+  
+  .vision-mission {
+    background: #fff5e5;
+    border-color: #ffb600;
+  }
+  
+  .why-choose-us {
+    background: #f2f9f2;
+    border-color: #28a745;
+  }
+  
+  .contact-info {
+    background: #f9f2f4;
+    border-color: #d63384;
+  }
+  
+
+  @media (max-width: 375px) {
+    .about-page {
+      padding: 15px;
+    }
+  
+    .about-page h1 {
+      font-size: 2em;
+    }
+  
+    .about-page h2 {
+      font-size: 1.4em;
+    }
+  
+    .about-page p,
+    .about-page li {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (min-width: 376px) and (max-width: 480px) {
+    .about-page {
+      padding: 15px;
+    }
+  
+    .about-page h1 {
+      font-size: 2.2em;
+    }
+  
+    .about-page h2 {
+      font-size: 1.6em;
+    }
+  
+    .about-page p,
+    .about-page li {
+      font-size: 1em;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .about-page {
+      padding: 20px;
+    }
+  
+    .about-page h1 {
+      font-size: 2.4em;
+    }
+  
+    .about-page h2 {
+      font-size: 1.8em;
+    }
+  
+    .about-page p,
+    .about-page li {
+      font-size: 1.1em;
+    }
+  }
+  
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .about-page {
+      padding: 30px;
+    }
+  
+    .about-page h1 {
+      font-size: 2.6em;
+    }
+  
+    .about-page h2 {
+      font-size: 2em;
+    }
+  
+    .about-page p,
+    .about-page li {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .about-page {
+      max-width: 900px;
+      padding: 40px;
+    }
+  
+    .about-page h1 {
+      font-size: 3em;
+    }
+  
+    .about-page h2 {
+      font-size: 2.2em;
+    }
+  
+    .about-page p,
+    .about-page li {
+      font-size: 1.3em;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+
+.support-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin: 10px 0;
+  }
+  
+ 
+  .desktop-social {
+    display: block; 
+  }
+  
+  .mobile-social-icons {
+    display: none; 
+    margin-top: 20px;
+  }
+  
+  .mobile-social-icons a {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .mobile-social-icons a:hover {
+    color: #003c82;
+  }
+  
+
+.mobile-social-icons {
+    display: none; 
+    margin-top: 20px;
+  }
+  
+  .mobile-social-icons a {
+    margin-right: 10px;
+    font-size: 2em; 
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .mobile-social-icons a:hover {
+    color: #003c82;
+  }
+  
+  @media (max-width: 768px) {
+    .desktop-social {
+      display: none; 
+    }
+  
+    .mobile-social-icons {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

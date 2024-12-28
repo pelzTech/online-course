@@ -1,0 +1,83 @@
+
+body{
+    background-color: #ddd;
+}
+.payment-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 4000px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  .payment-component h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+  }
+  
+  .payment-component p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .payment-component button {
+    background-color: #5ebdc4ce;
+    color: black;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .payment-component button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .payment-component button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .payment-component {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  
+    .payment-component h3 {
+      font-size: 1.25rem;
+    }
+  
+    .payment-component p {
+      font-size: 0.9rem;
+    }
+  
+    .payment-component button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .payment-component {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  

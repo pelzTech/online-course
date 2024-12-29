@@ -37,9 +37,9 @@ const Support = () => {
         <p>If you have any questions or need support, feel free to reach out to us:</p>
         <ul className="contact-links">
           <li>Email: <a href="mailto:owner@example.com">cryptopelzacademy2@gmail.com.com</a></li>
-          <li>Facebook: <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook Page</a></li>
-          <li>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@InstagramHandle</a></li>
-          <li>Telegram: <a href="https://t.me/TelegramHandle" target="_blank" rel="noopener noreferrer">Telegram Channel</a></li>
+          <li>Facebook: <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">pelz academy</a></li>
+          <li>Instagram: <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@pelzcode</a></li>
+          <li>Telegram: <a href="https://t.me/TelegramHandle" target="_blank" rel="noopener noreferrer">pelzcode</a></li>
         </ul>
       </section>
 

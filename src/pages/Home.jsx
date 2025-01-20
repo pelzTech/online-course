@@ -31,5 +31,4 @@ const Home = ({ courses }) => {
     </div>
   );
 };
-
 export default Home;
